@@ -1,5 +1,5 @@
 # Okul_sistemi
- Okul Sistemi projesi, bir okulun öğrenci ve personelin  kayıt, güncelleme, silme işlemlerinin yapıldığı, ders düzenlemelerinin yapılabildiği ve öğrencilerin ders programını ve derslerini görebildiği bir projedir. Kullanıcılar TC kimlik kartı bilgileri ve şifreleriyle sisteme giriş yapabilirler. Projenin videosu için (buraya)[https://www.youtube.com/] göz atabilirsiniz.
+ Okul Sistemi projesi, bir okulun öğrenci ve personelin  kayıt, güncelleme, silme işlemlerinin yapıldığı, ders düzenlemelerinin yapılabildiği ve öğrencilerin ders programını ve derslerini görebildiği bir projedir. Kullanıcılar TC kimlik kartı bilgileri ve şifreleriyle sisteme giriş yapabilirler. Projenin videosu için [buraya](https://www.youtube.com/) göz atabilirsiniz.
  
 ## Giriş
  Bu projede .NET 4.8 kullanılarak Visual Basic ile hazırlanmıştır. İçerisinde Giriş, Personel ve Öğrenci olmak üzere 3 farklı konuda sayfa bulunmaktadır. Ayrıca MySQL veritabanı kullanılarak veritabanı bağlantısı eklenmiştir. Veritabanı bilgileri aşağıda bulunmaktadır.     
