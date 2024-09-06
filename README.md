@@ -6,5 +6,7 @@
 
 ### Gereksinimler
 -[Visual Basic] (https://learn.microsoft.com/en-us/dotnet/visual-basic/)
+
 -[Guna.UI2.WinForms](https://www.nuget.org/packages/Guna.UI2.WinForms/2.0.4.6?_src=template)
+
 -[MYSql](https://www.w3schools.com/MySQL/default.asp)
