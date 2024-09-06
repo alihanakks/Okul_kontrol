@@ -42,6 +42,8 @@ namespace Okul_kontrol
             Sınıf_veri.Visible = false;
             Rütbe_veri.Visible = false;
             Sifre_yenile.Visible = false;
+            tablo_panel.Visible = false;
+            islemler.Visible = false;
             
         }
 
@@ -296,6 +298,8 @@ namespace Okul_kontrol
             Rütbe_veri.Visible = false;
             Sifre_yenile.Visible = false;
             rütbeAdd();
+            tablo_panel.Visible = true;
+            islemler.Visible = true;
         }
         private void guna2Button2_Click(object sender, EventArgs e)//Ogrenci
         {
@@ -310,6 +314,8 @@ namespace Okul_kontrol
             Rütbe_veri.Visible = false;
             Sifre_yenile.Visible = false;
             sınıfAdd("1");
+            tablo_panel.Visible = true;
+            islemler.Visible = true;
         }
         private void guna2Button3_Click(object sender, EventArgs e)//Ders
         {
@@ -324,6 +330,8 @@ namespace Okul_kontrol
             Rütbe_veri.Visible=false;
             Sifre_yenile.Visible = false;
             personelAdd();
+            tablo_panel.Visible = true;
+            islemler.Visible = true;
         }
         private void guna2Button4_Click(object sender, EventArgs e)//DersP
         {
@@ -340,7 +348,8 @@ namespace Okul_kontrol
 
             sınıfAdd("2");
                 dersAdd();
-            
+            tablo_panel.Visible = true;
+            islemler.Visible = true;
 
         }
         private void guna2ComboBox7_SelectedIndexChanged(object sender, EventArgs e)// sınıf Rutbe
@@ -357,6 +366,8 @@ namespace Okul_kontrol
 
                 Rütbe_veri.Visible=false;
                 Sifre_yenile.Visible = false;
+                tablo_panel.Visible = true;
+                islemler.Visible = true;
             }
         else if (guna2ComboBox7.SelectedIndex == 1)
             {
@@ -370,6 +381,8 @@ namespace Okul_kontrol
                 Ders_veri.Visible = false;
                 Sınıf_veri.Visible = false;
                 Sifre_yenile.Visible = false;
+                tablo_panel.Visible = true;
+                islemler.Visible = true;
             }
         }
         /// panel kontrolu son
@@ -961,6 +974,13 @@ namespace Okul_kontrol
         private void guna2HtmlLabel2_Click(object sender, EventArgs e)
         {
           Sifre_yenile.Visible = true;
+            Personel_veri.Visible = false;
+            Ogrenci_veri.Visible = false;
+            DersP_veri.Visible = false;
+            Ders_veri.Visible = false;
+            Sınıf_veri.Visible = false;
+            Rütbe_veri.Visible = false;
+            
         }
         private void guna2Button5_Click(object sender, EventArgs e)
         {

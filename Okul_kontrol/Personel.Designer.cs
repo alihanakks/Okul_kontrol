@@ -74,7 +74,7 @@
             this.guna2ComboBox1 = new Guna.UI2.WinForms.Guna2ComboBox();
             this.guna2TextBox2 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
+            this.tablo_panel = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2DataGridView1 = new Guna.UI2.WinForms.Guna2DataGridView();
             this.guna2ControlBox1 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.guna2ControlBox2 = new Guna.UI2.WinForms.Guna2ControlBox();
@@ -93,7 +93,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.islemler.SuspendLayout();
             this.Personel_veri.SuspendLayout();
-            this.guna2Panel2.SuspendLayout();
+            this.tablo_panel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).BeginInit();
             this.Sınıf_veri.SuspendLayout();
             this.Rütbe_veri.SuspendLayout();
@@ -102,14 +102,14 @@
             // 
             // DersP_veri
             // 
-            this.DersP_veri.BackColor = System.Drawing.Color.White;
+            this.DersP_veri.BackColor = System.Drawing.Color.Transparent;
             this.DersP_veri.Controls.Add(this.guna2TextBox19);
             this.DersP_veri.Controls.Add(this.guna2TextBox18);
             this.DersP_veri.Controls.Add(this.guna2TextBox15);
             this.DersP_veri.Controls.Add(this.guna2TextBox14);
             this.DersP_veri.Controls.Add(this.guna2ComboBox6);
             this.DersP_veri.Controls.Add(this.guna2ComboBox5);
-            this.DersP_veri.Location = new System.Drawing.Point(677, 21);
+            this.DersP_veri.Location = new System.Drawing.Point(685, 70);
             this.DersP_veri.Name = "DersP_veri";
             this.DersP_veri.Size = new System.Drawing.Size(200, 240);
             this.DersP_veri.TabIndex = 28;
@@ -303,10 +303,10 @@
             // 
             // Ders_veri
             // 
-            this.Ders_veri.BackColor = System.Drawing.Color.White;
+            this.Ders_veri.BackColor = System.Drawing.Color.Transparent;
             this.Ders_veri.Controls.Add(this.guna2TextBox16);
             this.Ders_veri.Controls.Add(this.guna2ComboBox4);
-            this.Ders_veri.Location = new System.Drawing.Point(652, 27);
+            this.Ders_veri.Location = new System.Drawing.Point(685, 70);
             this.Ders_veri.Name = "Ders_veri";
             this.Ders_veri.Size = new System.Drawing.Size(200, 110);
             this.Ders_veri.TabIndex = 29;
@@ -352,7 +352,7 @@
             // 
             // Ogrenci_veri
             // 
-            this.Ogrenci_veri.BackColor = System.Drawing.Color.White;
+            this.Ogrenci_veri.BackColor = System.Drawing.Color.Transparent;
             this.Ogrenci_veri.Controls.Add(this.guna2TextBox10);
             this.Ogrenci_veri.Controls.Add(this.guna2TextBox11);
             this.Ogrenci_veri.Controls.Add(this.guna2TextBox13);
@@ -361,7 +361,7 @@
             this.Ogrenci_veri.Controls.Add(this.guna2TextBox9);
             this.Ogrenci_veri.Controls.Add(this.guna2TextBox8);
             this.Ogrenci_veri.Controls.Add(this.guna2TextBox7);
-            this.Ogrenci_veri.Location = new System.Drawing.Point(680, 46);
+            this.Ogrenci_veri.Location = new System.Drawing.Point(685, 70);
             this.Ogrenci_veri.Name = "Ogrenci_veri";
             this.Ogrenci_veri.Size = new System.Drawing.Size(200, 300);
             this.Ogrenci_veri.TabIndex = 27;
@@ -657,7 +657,7 @@
             // 
             // islemler
             // 
-            this.islemler.BackColor = System.Drawing.Color.White;
+            this.islemler.BackColor = System.Drawing.Color.Transparent;
             this.islemler.Controls.Add(this.guna2Button9);
             this.islemler.Controls.Add(this.guna2Button8);
             this.islemler.Controls.Add(this.guna2Button7);
@@ -722,7 +722,7 @@
             // 
             // Personel_veri
             // 
-            this.Personel_veri.BackColor = System.Drawing.Color.White;
+            this.Personel_veri.BackColor = System.Drawing.Color.Transparent;
             this.Personel_veri.Controls.Add(this.guna2TextBox5);
             this.Personel_veri.Controls.Add(this.guna2TextBox4);
             this.Personel_veri.Controls.Add(this.guna2TextBox3);
@@ -730,7 +730,7 @@
             this.Personel_veri.Controls.Add(this.guna2TextBox2);
             this.Personel_veri.Controls.Add(this.guna2TextBox1);
             this.Personel_veri.Controls.Add(this.guna2TextBox6);
-            this.Personel_veri.Location = new System.Drawing.Point(730, 23);
+            this.Personel_veri.Location = new System.Drawing.Point(685, 70);
             this.Personel_veri.Name = "Personel_veri";
             this.Personel_veri.Size = new System.Drawing.Size(200, 300);
             this.Personel_veri.TabIndex = 24;
@@ -862,14 +862,14 @@
             this.guna2TextBox1.Size = new System.Drawing.Size(170, 30);
             this.guna2TextBox1.TabIndex = 6;
             // 
-            // guna2Panel2
+            // tablo_panel
             // 
-            this.guna2Panel2.BackColor = System.Drawing.Color.White;
-            this.guna2Panel2.Controls.Add(this.guna2DataGridView1);
-            this.guna2Panel2.Location = new System.Drawing.Point(225, 70);
-            this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.Size = new System.Drawing.Size(445, 300);
-            this.guna2Panel2.TabIndex = 23;
+            this.tablo_panel.BackColor = System.Drawing.Color.White;
+            this.tablo_panel.Controls.Add(this.guna2DataGridView1);
+            this.tablo_panel.Location = new System.Drawing.Point(225, 70);
+            this.tablo_panel.Name = "tablo_panel";
+            this.tablo_panel.Size = new System.Drawing.Size(445, 300);
+            this.tablo_panel.TabIndex = 23;
             // 
             // guna2DataGridView1
             // 
@@ -965,9 +965,9 @@
             // 
             // Sınıf_veri
             // 
-            this.Sınıf_veri.BackColor = System.Drawing.Color.White;
+            this.Sınıf_veri.BackColor = System.Drawing.Color.Transparent;
             this.Sınıf_veri.Controls.Add(this.guna2TextBox17);
-            this.Sınıf_veri.Location = new System.Drawing.Point(206, 12);
+            this.Sınıf_veri.Location = new System.Drawing.Point(685, 70);
             this.Sınıf_veri.Name = "Sınıf_veri";
             this.Sınıf_veri.Size = new System.Drawing.Size(200, 60);
             this.Sınıf_veri.TabIndex = 30;
@@ -996,9 +996,9 @@
             // 
             // Rütbe_veri
             // 
-            this.Rütbe_veri.BackColor = System.Drawing.Color.White;
+            this.Rütbe_veri.BackColor = System.Drawing.Color.Transparent;
             this.Rütbe_veri.Controls.Add(this.guna2TextBox20);
-            this.Rütbe_veri.Location = new System.Drawing.Point(436, 10);
+            this.Rütbe_veri.Location = new System.Drawing.Point(685, 70);
             this.Rütbe_veri.Name = "Rütbe_veri";
             this.Rütbe_veri.Size = new System.Drawing.Size(200, 60);
             this.Rütbe_veri.TabIndex = 31;
@@ -1027,11 +1027,11 @@
             // 
             // Sifre_yenile
             // 
-            this.Sifre_yenile.BackColor = System.Drawing.Color.White;
+            this.Sifre_yenile.BackColor = System.Drawing.Color.Transparent;
             this.Sifre_yenile.Controls.Add(this.guna2Button5);
             this.Sifre_yenile.Controls.Add(this.guna2TextBox22);
             this.Sifre_yenile.Controls.Add(this.guna2TextBox21);
-            this.Sifre_yenile.Location = new System.Drawing.Point(676, 308);
+            this.Sifre_yenile.Location = new System.Drawing.Point(685, 70);
             this.Sifre_yenile.Name = "Sifre_yenile";
             this.Sifre_yenile.Size = new System.Drawing.Size(200, 150);
             this.Sifre_yenile.TabIndex = 30;
@@ -1113,7 +1113,7 @@
             this.Controls.Add(this.Ders_veri);
             this.Controls.Add(this.Panel);
             this.Controls.Add(this.islemler);
-            this.Controls.Add(this.guna2Panel2);
+            this.Controls.Add(this.tablo_panel);
             this.Controls.Add(this.guna2ControlBox1);
             this.Controls.Add(this.guna2ControlBox2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -1129,7 +1129,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.islemler.ResumeLayout(false);
             this.Personel_veri.ResumeLayout(false);
-            this.guna2Panel2.ResumeLayout(false);
+            this.tablo_panel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).EndInit();
             this.Sınıf_veri.ResumeLayout(false);
             this.Rütbe_veri.ResumeLayout(false);
@@ -1149,7 +1149,7 @@
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
         private Guna.UI2.WinForms.Guna2Panel islemler;
         private Guna.UI2.WinForms.Guna2Panel Personel_veri;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
+        private Guna.UI2.WinForms.Guna2Panel tablo_panel;
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox1;
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox2;
         private Guna.UI2.WinForms.Guna2Button guna2Button6;
