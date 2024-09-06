@@ -5,6 +5,7 @@
  Bu projede .net 4.8 kullanarak Visual Basic kullanılarak hazırlanmıştır.İçerisinde Giriş, Personel, Öğrenci şeklinde 3 farklı konuda sayfa bulunmaktadır. Ek olarak MYSql veri tabanı kullanılarak veri tabanı bağlantısı eklenmiştir, veri tabanı bilgileri aşağıda bulunmaktadır.     
 
 ### Gereksinimler
+
 -[Visual Basic] (https://learn.microsoft.com/en-us/dotnet/visual-basic/)
 
 -[Guna.UI2.WinForms](https://www.nuget.org/packages/Guna.UI2.WinForms/2.0.4.6?_src=template)
