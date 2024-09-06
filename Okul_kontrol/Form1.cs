@@ -24,7 +24,7 @@ namespace Okul_kontrol
         }
        
 
-        SqlConnection conn = new SqlConnection("Data Source=alihans;Initial Catalog=Okul_Sistem;Integrated Security=True;TrustServerCertificate=True");
+        SqlConnection conn = new SqlConnection("Data Source=.;Initial Catalog=Okul_Sistem;Integrated Security=True;TrustServerCertificate=True");
         SqlCommand cmd;                                                     
         SqlDataReader dr;
         public static string KullaniciAdi;

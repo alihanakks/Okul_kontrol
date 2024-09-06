@@ -22,7 +22,7 @@ namespace Okul_kontrol
             InitializeComponent();
         }
         //güncelleme if çalışmadı kontrol et
-        public SqlConnection conn = new SqlConnection("Data Source=alihans;Initial Catalog=Okul_Sistem;Integrated Security=True;TrustServerCertificate=True");
+        public SqlConnection conn = new SqlConnection("Data Source=.;Initial Catalog=Okul_Sistem;Integrated Security=True;TrustServerCertificate=True");
         public SqlCommand cmd;
         public SqlDataReader dr;
         public SqlDataAdapter adapter;
