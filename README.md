@@ -1,8 +1,8 @@
 # Okul_kontrol
   sdfsdf
 ## sq
-sdasdasd
+  sdasdasd
 ###sda
-asdasd
+  asdasd
 ###dda
-asdas
+  asdas
